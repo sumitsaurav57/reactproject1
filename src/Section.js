@@ -37,10 +37,10 @@ console.log(jokes)
 }
 const Joke = ({ jokes }) => {
   return (
-    <Scroll className=' flex justify-center items-center'>
+    <div className=' flex justify-center items-center'>
       {jokes.map((item, index) => (
         <p className='text-sm w-1/2' key={index}>{item.joke}</p>
       ))}  
-  </Scroll>
+  </div>
  )}
 export default Section
