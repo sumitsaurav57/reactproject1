@@ -3,9 +3,6 @@ import img2 from './grad.jpg';
 import img3 from './Meditation.png';
 import { fetchData,options } from './fetchData';
 import { Scroll } from 'scrollex';
-
-
-
 const Section = () => {
   const [jokes, setJokes] = useState(null);
  useEffect(() => {
